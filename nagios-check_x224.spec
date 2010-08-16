@@ -1,6 +1,6 @@
 %define name	nagios-check_x224
 %define version	9734
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Name:		%{name}
 Version:	%{version}
@@ -34,7 +34,7 @@ install -d -m 755 %{buildroot}%{_sysconfdir}/nagios/plugins.d
 cat > %{buildroot}%{_sysconfdir}/nagios/plugins.d/check_x224.cfg <<'EOF'
 define command {
 	command_name    check_x224
-	command_line    %{_datadir}/nagios/plugins/check_x224 -H $HOSTNAME$
+	command_line    %{_datadir}/nagios/plugins/check_x224 -H $HOSTADDRESS$
 }
 EOF
 
