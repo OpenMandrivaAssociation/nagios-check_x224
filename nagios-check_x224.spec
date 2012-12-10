@@ -46,3 +46,14 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_x224.cfg
 %{_datadir}/nagios/plugins/check_x224
 
+
+
+%changelog
+* Mon Aug 16 2010 Guillaume Rousse <guillomovitch@mandriva.org> 9734-2mdv2011.0
++ Revision: 570416
+- fix configuration file
+
+* Mon Aug 16 2010 Guillaume Rousse <guillomovitch@mandriva.org> 9734-1mdv2011.0
++ Revision: 570410
+- import nagios-check_x224
+
