@@ -1,6 +1,6 @@
 %define name	nagios-check_x224
 %define version	9734
-%define release	%mkrel 2
+%define release	3
 
 Name:		%{name}
 Version:	%{version}
