@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	Nagios x224 plugin
 Group:		Networking/Other
 License:	BSD
-URL:		http://exchange.nagios.org/directory/Plugins/Remote-Access/check_x224/details
+URL:		https://exchange.nagios.org/directory/Plugins/Remote-Access/check_x224/details
 Source0:	check_x224
 BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
